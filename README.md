@@ -15,3 +15,16 @@ Este proyecto también sirve como una introducción personal al desarrollo de si
 
 ## Tech Stack
 Este proyecto se encuentra en una etapa de aprendizaje, por lo que el uso de tecnologías avanzadas se incorporará de manera gradual conforme se adquieran más conocimientos en programación y bases de datos.
+
+## Normalización
+Se aplicaron las siguientes formas normales:
+
+- Primera Forma Normal (1FN): Eliminación de atributos multivaluados
+- Segunda Forma Normal (2FN): Eliminación de dependencias parciales
+- Tercera Forma Normal (3FN): Eliminación de dependencias transitivas
+
+## Cambios realizados
+- Se eliminaron atributos derivados como numero_lotes
+- Se agregaron claves primarias en todas las entidades
+- Se definieron claves foráneas para relaciones
+- Se separaron entidades para evitar redundancia
